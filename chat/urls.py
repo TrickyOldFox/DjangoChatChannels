@@ -5,7 +5,7 @@ from .views import index, room, chat_lobby
 app_name = 'chat'
 
 urlpatterns = [
-    path('', index, name='index'),
-    path('chat/lobby/', chat_lobby, name='chat_lobby'),
+    path('', chat_lobby, name='chat_lobby'),
+    path('lobby/', chat_lobby, name='chat_lobby'),
     re_path(r'^(?P<room_name>[^/]+)/$', room, name='room'),
 ]
