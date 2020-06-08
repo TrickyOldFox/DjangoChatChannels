@@ -17,7 +17,7 @@ def register(request):
     else:
         f = CustomUserCreationForm()
  
-    return render(request, 'registration/register.html', {'form': f})
+    return render(request, 'register', {'form': f})
 
 def login(request):
     if request.user.is_authenticated:

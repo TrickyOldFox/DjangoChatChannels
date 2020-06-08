@@ -134,6 +134,7 @@
 
     function setActiveConversations(data) {
         var contact = document.createElement('li');
+        
         contact.className = 'contact';
         contact.onclick = function (e) {
             window.location.pathname = '/chat/' + data.room_name + '/';
