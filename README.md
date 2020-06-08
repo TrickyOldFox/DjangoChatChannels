@@ -5,6 +5,7 @@ To run the backend follow these steps:
 
 1) create new empty python environment, for example with conda it would be like:
 conda create -n EnvironmentName python
+conda activate EnvironmentName
 2) run pip install with requirments.txt file which is included in the repository:
 pip install -r requirements.txt (You must be in base project folder in promt to do that)
 3) run the server with:
