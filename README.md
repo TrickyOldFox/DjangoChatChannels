@@ -17,6 +17,7 @@ The frontend templates for chat are located in /chat/templates/chat folder,
 templates for account management are located in /accounts/templates/registration,
 and in /static/ folder u may found style.css file.
 
-This project was built using https://github.com/justdjango/justchat/ repository 
-as well as using templates of chat from https://bootsnipp.com/tags/chat. For simplicity
-backend is running with sqlite3 DB, this can be easily modified in chatsite/settings.py file
+This project was built using https://channels.readthedocs.io/en/latest/ for some basic templates of
+functions to use with Django Channels and https://github.com/justdjango/justchat/ repository for some
+templates for authentification process, as well as using templates of chat from https://bootsnipp.com/tags/chat.
+For simplicity backend is running with SQLite DB, this can be easily modified in chatsite/settings.py file
