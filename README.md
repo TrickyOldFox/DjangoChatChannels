@@ -8,6 +8,9 @@ conda create -n EnvironmentName python
 conda activate EnvironmentName
 2) run pip install with requirments.txt file which is included in the repository:
 pip install -r requirements.txt (You must be in base project folder in promt to do that)
+4) make migrations:
+python manage.py makemigrations
+python manage.py migrate
 3) run the server with:
 python manage.py runserver (You must be in base project folder in promt to do that)
 4) by default server runs on 127.0.0.1:8000, you can browse to that address in
