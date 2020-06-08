@@ -6,9 +6,9 @@ To run the backend follow these steps:
 1) create new empty python environment, for example with conda it would be like:
 conda create -n EnvironmentName python
 2) run pip install with requirments.txt file which is included in the repository:
-pip install -r requirements.txt (You must be in correct folder in promt to do that)
+pip install -r requirements.txt (You must be in base project folder in promt to do that)
 3) run the server with:
-python manage.py runserver (You must be in correct folder in promt to do that)
+python manage.py runserver (You must be in base project folder in promt to do that)
 4) by default server runs on 127.0.0.1:8000, you can browse to that address in
 whatever internet browser you use.
 
